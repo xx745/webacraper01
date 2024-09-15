@@ -4,5 +4,5 @@
 npm install
 npx playwright install-deps
 npx playwright install chromium
-node index.js
+node --env-file=.env index.js
 ```
